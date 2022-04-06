@@ -6,15 +6,17 @@ This project uses mediapipe to capture motion from American Sign Language(ASL) v
 ## How to run it:
 
 ### FrontEnd
- -```npm install```
- -```npm run start```
+ - ```npm install```
+ - ```npm run start```
+ 
  **NOTE:** We are still trying to make it into a chrome extension & it still doesn't read the motion data points from firebase 100% correctly.
  
 ### Backend
 - ```cd /mediapipeholistic/dist```
--`` npm install``
--`` npm run serve``
-- upload video  from  SignSchool(https://www.signschool.com/tools/dictionary/all/), and motion data points will be stored on firebase
+- `` npm install``
+- `` npm run serve``
+- Upload video  from  SignSchool(https://www.signschool.com/tools/dictionary/all/), and motion data points will be stored on firebase
+
 **NOTE:** We are still working on fixing certain minor bugs and try to automate this process.
 
-**Thanks!**__
+***Thanks!***
