@@ -74,9 +74,9 @@ new ControlPanel(controlsElement, {
                 if(firstRound){firstRound=false}
                else{
                    input.pause();
-                   //store("YOU",res)
+                   store("YOU",res)
                    console.log("stored!")
-                  myInterval= setInterval(function(){draw(res[key])}, 100);
+                  //myInterval= setInterval(function(){draw(res[key])}, 100);
               
             }}
         },
