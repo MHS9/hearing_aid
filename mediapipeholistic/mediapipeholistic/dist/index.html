@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - MediaPipe - Holistic</title>
+    <meta charset="utf-8">
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/holistic/holistic.js" crossorigin="anonymous"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-storage.js"></script>
+
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+    <video class="input_video"></video>
+    <div class="canvas-container">
+    <canvas class="output_canvas" width="480px" height="480px">
+    </canvas>
+    </div>
+    <div style="display:none;">
+      <img id="blank"
+           src="canvas.jpg"
+           >
+           <video id="input" >
+           </video>
+           <span id="res"></span>
+    </div>
+    <div class="loading">
+      <div class="spinner"></div>
+      <div class="message">
+        Loading
+      </div>
+    </div>
+   
+   
+  </div>
+  <div class="control-panel">
+  </div>
+<!-- partial -->
+<script type="text/javascript" src="draw.js"></script>
+<!-- <script type="text/javascript" src="./store.js"></script>
+<script type="text/javascript" src="./services.js"></script> -->
+  <script type="text/javascript" src="./script.js"></script>
+  
+</body>
+</html>
